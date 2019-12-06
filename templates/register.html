@@ -9,11 +9,11 @@
 	<a href="{{ url_for('login') }}">login</a>
 	<a href="{{ url_for('register') }}">register</a>
 	<form action="{{ url_for('register') }}" method = 'POST' autocomplete="off">
-		username<input type="text" name="username" placeholder="username" id="username" required>
-		password<input type="password" name="password" placeholder="password" id="password" required>
-		email<input type="email" name="email" placeholder="email" id="email" required>
-		{{ msg }}
-		<input type="submit" value="register">
+		username<input type="text" name="username" placeholder="username" id="username" required><br>
+		password<input type="password" name="password" placeholder="password" id="password" required><br>
+		email<input type="email" name="email" placeholder="email" id="email" required><br>
+		{{ msg }}<br>
+		<input type="submit" value="register"><br>
 	</form>
 </center>
 </body>

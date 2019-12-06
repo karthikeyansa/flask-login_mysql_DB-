@@ -9,10 +9,10 @@
 	<a href="{{ url_for('login') }}">login</a>
 	<a href="{{ url_for('register') }}">register</a>
 	<form action="{{ url_for('login') }}" method = 'POST'>
-		username<input type="text" name="username" placeholder="username" id="username" required>
-		password<input type="password" name="password" placeholder="password" id="password" required>
-		{{ msg }}
-		<input type="submit" value="login">
+		username<input type="text" name="username" placeholder="username" id="username" required><br>
+		password<input type="password" name="password" placeholder="password" id="password" required><br>
+		{{ msg }}<br>
+		<input type="submit" value="login"><br>
 	</form>
 </center>
 </body>
